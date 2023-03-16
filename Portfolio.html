@@ -14,16 +14,16 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#About-Me">About Me</a>
-                </li>
-                <li>
                     <a href="#My-Work">My Work</a>
                 </li>
                 <li>
-                    <a href="#Contact-Me">Contact Me</a>
+                    <a href="#About-Me">About Me</a>
                 </li>
                 <li>
-                    <a href="#Resume">Resume</a>
+                    <a href="#Resume">Resume</a>                    
+                </li>
+                <li>
+                    <a href="#Contact-Me">Contact Me</a>
                 </li>
             </ul>
         </nav>
@@ -41,28 +41,42 @@
 
 <!--Main body-->
 <main>
-    <section class="container2">
-        <div class="card about">About Me</div>
-        <div class="card work">My Work</div>
-        <div class="card contact">Contact Me</div>
-        <div class="card resume">Resume</div>
+    <div class="container2">
+        <section id="My-Work" class="card work">
+            <header>My Projects</header>
+            <img class="pets" src="C:\Users\erbes\OneDrive\Pictures\Camera Roll\pets.jpg" alt="The developers home project.">
+        </section>
+        <section id="About-Me"class="card about">
+            <header>About Me</header>
+        </section>
+        <section id="Resume" class="card resume">
+            <header>Resume</header>
+        </section>
+    </div>
     </section>
 </main>
 
 <!--Footer-->
 <footer>
     <section class="container3">
-        <div class="card contact">Contact Me</div>
-            <nav>
+        <div id="Contact-Me" class="card contact">Contact Me</div>
+            <nav role="sub">
                 <ul>
-                    <li>Phone</li>
-                    <li>Email</li>
-                    <li>Github</li>
-                    <li>LinkedIn</li>
+                    <li>
+                        <a href="Phone"></a>
+                    </li>
+                    <li>
+                        <a href="Email"></a>
+                    </li>
+                    <li>
+                        <a href="Github"></a>
+                    </li>
+                    <li>
+                        <a href="LinkedIn"></a>
+                    </li>
                 </ul>
             </nav>
     </section>
 </footer>
-
 </html>
 
