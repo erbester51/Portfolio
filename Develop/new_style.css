@@ -67,6 +67,19 @@ main {
         justify-content: space-around;
     }
 
+    .work {
+        display: flex;
+        padding: 10px;
+        width: 100%;
+        border-style: solid;
+        text-align: center;
+        border-width: 1px;
+        background-color: skyblue;
+        justify-content: space-between;
+    
+    }
+    
+    /*
     .container2 {
         display: flex;
         flex-direction: row;
@@ -79,6 +92,7 @@ main {
         flex-wrap: wrap;
         justify-content: space-between;
     }
+    */
 }
 
 img {
@@ -89,7 +103,6 @@ img {
     align-self: center;
 }
 
-
 .subtitle {
     border: 2px solid black;
     display: flex;
@@ -97,18 +110,6 @@ img {
     align-self: flex-end;
     background-color: white;
     font-size: 20px;
-}
-
-.work {
-    display: flex;
-    padding: 10px;
-    width: 100%;
-    border-style: solid;
-    text-align: center;
-    border-width: 1px;
-    background-color: skyblue;
-    justify-content: space-between;
-
 }
 
 .work h1 {
