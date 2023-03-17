@@ -58,6 +58,7 @@ nav ul li a:hover {
 main {
     margin: 0;
 }
+
 @media(min-width: 768px){
     .container {
         display: flex;
@@ -76,17 +77,9 @@ main {
         border-style: solid;
         border-width: 2px;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 }
-
-/*
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(74, 83, 112);
-    justify-content: space-around;
-}
-*/
 
 img {
     display: block;
@@ -106,46 +99,59 @@ img {
     font-size: 20px;
 }
 
-/*
-main {
-   display: flex; 
-   flex-wrap: wrap;
-   background-color: brown;
-   margin: 0;
-   padding: 0;
-
-}
-
-
-.container2 {
-    display: flex;
-    flex-direction: column;
-    font-size: 30px;
-   flex-wrap: wrap;
-}
-*/
-
 .work {
-    flex: 1 0 200px;
+    display: flex;
     padding: 10px;
-    width: 250px;
+    width: 100%;
     border-style: solid;
     text-align: center;
     border-width: 1px;
     background-color: skyblue;
+    justify-content: space-between;
+
 }
 
-.work header {
+.work h1 {
     padding: 20px;
     background: #13293d;
     color: #fff;
 }
 
-.pets {
-    display: block;
+.bigbox {
+    display: flex;
+    width: 800px;
+    height: 400px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+.web {
     border: 2px solid black;
-    width: 100px;
-    align-self: center; 
+    width: 800px;
+    margin: 10px 10px 10px 10px;
+    height: 400px;
+}
+
+.smallbox {
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.pets {
+    border: 2px solid black;
+    width: 300px;
+    margin: 10px 10px 10px 10px;
+    height: 150px;
+}
+
+.box {
+    width: 300px;
+    height: 150px;
+    background-color: orange;
+    margin: 10px 10px 10px 10px;
+    border: 5px dashed black;
 }
 
 .about {
